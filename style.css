@@ -24,6 +24,10 @@ p {
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
 }
 
+#message-el {
+  font-style: italic;
+}
+
 button {
   color: #016f32;
   width: 150px;
