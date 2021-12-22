@@ -6,18 +6,18 @@ let isAlive = true
 let message = ""
 let messageEl = document.getElementById("message-el")
 let sumEl = document.querySelector("#sum-el")
+let cardsEl = document.getElementById("cards-el")
 
 function startGame() {
+  cardsEl.textContent = "Cards: " + firstCard + " " + secondCard
+  sumEl.textContent = "Sum: " + sum
   if (sum <= 20) {
     message = "Do you want to draw a new card?"
-    sumEl.textContent = "Sum: " + sum
   } else if (sum === 21) {
     message = "Blackjack!"
-    sumEl.textContent = "Sum: " + sum
     hasBlackjack = true
   } else {
     message = "Bust!"
-    sumEl.textContent = "Sum: " + sum
     isAlive = false
   }
   messageEl.textContent = message
