@@ -44,3 +44,24 @@ methods are functions on an object
 
 - Appending an item at the end of an array `push()`
 - Removing the last item from an array `pop()`
+
+### for loops
+
+``` javascript
+//   START     FINISH   STEP SIZE
+for (let i = 1; i < 11; i += 1) {
+  console.log(i)
+}
+```
+
+``` javascript
+let messages = [
+    "a",
+    "b",
+    "c"
+]
+
+for (let i = 0; i < messages.length; i += 1) {
+  console.log(messages[i])
+}
+```
