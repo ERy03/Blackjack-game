@@ -120,3 +120,19 @@ player.tags // ["1", "2"]
 // bracket notation
 player["tags"] // ["1", "2"]
 ```
+
+### Methods
+
+Functions attached to objects
+
+``` javascript
+let player = {
+    name: "me",
+    chips: 150,
+    sayHello: function() {
+        console.log("Hello!")
+    }
+}
+
+player.sayHello()
+```
