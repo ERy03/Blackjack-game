@@ -136,3 +136,14 @@ let player = {
 
 player.sayHello()
 ```
+
+### Recap
+- Arrays
+- Objects
+- Booleans
+- if else statements
+- comparison operators
+- logical operators
+- for loops
+- Math object
+- return statement
