@@ -36,6 +36,7 @@ Lego blocks
 
 Composite data type
 - Array
+- Objects
 Full Lego model using Lego blocks
 
 ### Array methods
@@ -95,4 +96,22 @@ function getRndInteger(min, max) {
 function getRndInteger(min, max) {
   return Math.floor(Math.random() * (max - min + 1) ) + min;
 }
+```
+
+### Objects
+
+composite / complex data types
+
+store data in depth
+key-value pair
+
+``` javascript
+let player = {
+  name: "Me",
+  chips: 145
+}
+
+// calling using dot notation
+player.name
+player.chips
 ```
