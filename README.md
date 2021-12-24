@@ -73,7 +73,7 @@ function gets hoisted to the top
 ### Math object
 
 `Math.floor()`
->>> Removes the decimals
+>>> Removes the decimals and rounds it down
 
 ex.
 ``` javascript
