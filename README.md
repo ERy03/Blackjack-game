@@ -22,3 +22,25 @@ let sumEl = document.querySelector("#sum-el") // for an id selector
 let sumEl = document.querySelector(".sum-el") // for an class selector
 let sumEl = document.querySelector("body") // for the whole element
 ```
+
+### Arrays
+Known as composite / complex data type
+
+primitive vs composite data types
+
+Primitive data types
+- string
+- number
+- boolean
+Lego blocks
+
+Composite data type
+- Array
+Full Lego model using Lego blocks
+
+### Array methods
+
+methods are functions on an object
+
+- Appending an item at the end of an array `push()`
+- Removing the last item from an array `pop()`
