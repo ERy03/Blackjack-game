@@ -109,9 +109,14 @@ key-value pair
 let player = {
   name: "Me",
   chips: 145
+  tags: ["1", "2"]
 }
 
 // calling using dot notation
 player.name
 player.chips
+player.tags // ["1", "2"]
+
+// bracket notation
+player["tags"] // ["1", "2"]
 ```
