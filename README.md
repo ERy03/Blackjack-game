@@ -69,3 +69,30 @@ for (let i = 0; i < messages.length; i += 1) {
 ### function declarations
 
 function gets hoisted to the top
+
+### Math object
+
+`Math.floor()`
+>>> Removes the decimals
+
+ex.
+``` javascript
+Math.floor(3.1415) // 3
+```
+
+`Math.random()`
+>>> Generates a random number between 0 and 1 (not including 1) 0.000 -> 0.999
+
+It's not TRULY random
+
+``` Javascript
+// min (included) and max (excluded)
+function getRndInteger(min, max) {
+  return Math.floor(Math.random() * (max - min) ) + min;
+}
+
+// min (included) and max (included)
+function getRndInteger(min, max) {
+  return Math.floor(Math.random() * (max - min + 1) ) + min;
+}
+```
