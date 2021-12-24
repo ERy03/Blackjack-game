@@ -65,3 +65,7 @@ for (let i = 0; i < messages.length; i += 1) {
   console.log(messages[i])
 }
 ```
+
+### function declarations
+
+function gets hoisted to the top
